@@ -1,0 +1,40 @@
+{
+  "name": "aho-corasick-automaton",
+  "version": "0.0.0",
+  "description": "Stream Aho-Corasick automata",
+  "main": "aho-corasick.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "binary-search-bounds": "~0.3.1"
+  },
+  "devDependencies": {
+    "tape": "~2.1.0",
+    "tap": "~0.4.4",
+    "array-trie": "0.0.2"
+  },
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mikolalysenko/aho-corasick-automaton.git"
+  },
+  "keywords": [
+    "aho",
+    "corasick",
+    "automata",
+    "stream",
+    "array",
+    "pattern",
+    "match",
+    "multiple",
+    "strings"
+  ],
+  "author": "Mikola Lysenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikolalysenko/aho-corasick-automaton/issues"
+  }
+}
