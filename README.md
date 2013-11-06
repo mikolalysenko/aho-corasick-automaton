@@ -1,12 +1,12 @@
-aho-corasick-automata
-=====================
+aho-corasick-automaton
+======================
 A streaming [Aho-Corasick](http://en.wikipedia.org/wiki/Aho%E2%80%93Corasick_string_matching_algorithm) automata for matching strings.  This module is a low level interface, but can be used to construct more complex algorithms.
 
 # Example
 
 ```javascript
 var createTrie = require("array-trie")
-var createAC = require("../aho-corasick")
+var createAC = require("aho-corasick-automaton")
 
 var trie = createTrie()
 
@@ -35,6 +35,20 @@ for(var state=automata, i=0; i<data.length; ) {
     }
   }
 }
+```
+
+Here is some example output from the above program:
+
+```
+matches at position 2 :
+4
+matches at position 3 :
+1
+5
+matches at position 4 :
+2
+matches at position 8 :
+3
 ```
 
 # Install
